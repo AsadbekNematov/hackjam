@@ -5,7 +5,10 @@ function Home() {
   return (
     <div className="h-screen flex">
         <Navbar/>
-      <h1 className="m-auto">Hello World!</h1>
+        <div className=" m-auto flex-col">
+      <h1 className="m-auto font-bold dark-color tt">HACKJAM</h1>
+      <h3 className="m-auto font-bold dark-color tt">2023</h3>
+      </div>
     </div>
   );
 }
