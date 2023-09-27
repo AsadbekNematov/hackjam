@@ -31,24 +31,22 @@ function Navbar() {
           <img src={logo} className="" alt="Logo" />
         </div>
         <div className="nav-links space-x-4">
-          <div>
-            <a href="#home" className="hover:text-blue-500 main-color ">
-              Home
-            </a>
-          </div>
-          <a href="#about" className="hover:text-blue-500 main-color">
+          <a href="#home" className="sec_color main-color ">
+            Home
+          </a>
+          <a href="#about" className="sec_color main-color">
             About
           </a>
-          <a href="#schedule" className="hover:text-blue-500 main-color">
+          <a href="#schedule" className="sec_color main-color">
             Schedule
           </a>
-          <a href="#sponsors" className="hover:text-blue-500 main-color">
+          <a href="#sponsors" className="sec_color main-color">
             Sponsors
           </a>
-          <a href="#socials" className="hover:text-blue-500 main-color">
+          <a href="#socials" className="sec_color main-color">
             Socials
           </a>
-          <a href="#faq" className="hover:text-blue-500 main-color">
+          <a href="#faq" className="sec_color main-color">
             FAQ
           </a>
         </div>

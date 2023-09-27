@@ -4,6 +4,18 @@
   padding: 2rem;
   text-align: center;
 }
+
+.sec_color {
+  will-change: filter;
+  transition: filter 300ms;
+}
+.sec_color:hover {
+  color: #fbb4cc;
+  filter: drop-shadow(0 0 1.2em #fbb4cc);
+}
+.sec_color.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
 .pink__gradient {
   background: #fbb4cc;
   filter: blur(10px);
