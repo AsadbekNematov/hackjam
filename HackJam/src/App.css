@@ -4,10 +4,14 @@
   padding: 2rem;
   text-align: center;
 }
+.pink__gradient {
+  background: #fbb4cc;
+  filter: blur(10px);
+  width: 30%;
+  height: 10%;
+}
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -16,6 +20,9 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.main-color{
+  color: #5e16ec;
 }
 
 @keyframes logo-spin {
