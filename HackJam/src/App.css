@@ -51,6 +51,43 @@
   background-color: #fe01ff;
   border-color: #fe01ff;
 }
+.faq-flex {
+  min-width: 250px;
+  max-width: 50vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+.faq-btn:focus {
+  outline: none;
+
+}
+.spin-right {
+  animation: spin-right 0.2s linear;
+  animation-fill-mode: forwards;
+  
+}
+@keyframes spin-right {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(0.125turn);
+  }
+}
+.spin-left {
+  animation: spin-left 0.2s linear;
+}
+@keyframes spin-left {
+  from {
+    transform: rotate(0.125turn);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+.socials {
+  color: #646cffaa;
+}
 .motto {
   will-change: filter;
   transition: filter 300ms;
