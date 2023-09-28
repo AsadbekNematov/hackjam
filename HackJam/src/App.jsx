@@ -15,8 +15,8 @@ function App() {
       <About />
       <Schedule />
       <Sponsors />
-      <Socials />
       <FAQ />
+      <Socials />
     </>
   );
 }

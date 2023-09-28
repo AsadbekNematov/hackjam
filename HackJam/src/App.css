@@ -5,7 +5,7 @@
   text-align: center;
 }
 .tt {
-  filter: drop-shadow(2px 0px 0px #fd3e3e) drop-shadow(-2px -2px 0px #4de8f4);
+  filter: drop-shadow(2px 2px 0px #fe01ff) drop-shadow(-2px -2px 0px #04fcff);
 }
 
 .sec_color {
@@ -20,7 +20,7 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 .pink__gradient {
-  background: #fbb4cc;
+  background: #fab4cc;
   filter: blur(10px);
   width: 30%;
   height: 10%;
@@ -43,8 +43,23 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.btn {
+  background-color: #221a27;
+  border-color: #fe01ff;
+}
+.btn:hover {
+  background-color: #fe01ff;
+  border-color: #fe01ff;
+}
+.motto {
+  will-change: filter;
+  transition: filter 300ms;
+}
+.motto:hover {
+  filter: drop-shadow(5px 5px 10px yellow) ;
+}
 .main-color {
-  color: #5e16ec;
+  color: #fe01ff;
 }
 .dark-color {
   color: #221a27;
