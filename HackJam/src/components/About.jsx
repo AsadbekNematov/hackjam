@@ -1,14 +1,14 @@
 
 function About() {
   return (
-    <div className="h-screen">
+    <div id="about" className="h-screen">
       <h1 className="m-auto motto">Think. Code. Innovate.</h1>
       <br/><br/>
-      <div class="flex">
-        <div class="flex-1 ...">
+      <div className="flex">
+        <div className="flex-1 ...">
           Put honeycomb picture design here
         </div>
-        <div class="flex-1 ...">
+        <div className="flex-1 ...">
           <p className="text-left text-lg">Welcome to HackJam - Where Innovation Meets Code!</p>
           <br/>
           <p className="text-left text-lg">

@@ -1,7 +1,9 @@
 
-function Home() {
+function Footer() {
   return (
-    <div className="h-screen">
+    <div id="socials" className="h-4">
+      <p>For questions and concerns, reach out to us on one of our platforms</p>
+      <br/><br/>
       <div class="flex justify-center">
         <div class="flex-none w-24 h-24">
           <a href={"https://www.facebook.com/hackabull"}>
@@ -18,4 +20,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Footer;

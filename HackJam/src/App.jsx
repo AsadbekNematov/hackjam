@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./App.css";
 import Home from "./components/Home";
-import FAQ from "./components/FAQ";
 import About from "./components/About";
 import Schedule from "./components/Schedule";
-import Socials from "./components/Socials";
-import Sponsors from "./components/Sponsors";
+import Collaborators from "./components/Collaborators";
+import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -14,9 +14,9 @@ function App() {
       <Home />
       <About />
       <Schedule />
-      <Sponsors />
+      <Collaborators />
       <FAQ />
-      <Socials />
+      <Footer />
     </>
   );
 }

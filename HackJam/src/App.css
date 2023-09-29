@@ -6,6 +6,7 @@
 }
 ::-webkit-scrollbar {
   width: 10px;
+  height: 10px;
 }
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px #1b141f
@@ -17,7 +18,6 @@
 .tt {
   filter: drop-shadow(2px 2px 0px #fe01ff) drop-shadow(-2px -2px 0px #04fcff);
 }
-
 .sec_color {
   will-change: filter;
   transition: filter 300ms;
@@ -52,6 +52,9 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.stu-org.logo {
+  
 }
 .btn {
   background-color: #221a27;

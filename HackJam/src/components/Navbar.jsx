@@ -26,27 +26,24 @@ function Navbar() {
         scrolled ? "nv-bg" : "bg-transparent"
       } z-50`}
     >
-      <div className="container mx-auto px-4 py-2 flex justify-around items-center">
+      <div className="container mx-auto px-4 py-2 flex justify-around items-center select-none">
         <div className="p-0 logo w-20 ">
           <img src={logo} className="" alt="Logo" />
         </div>
         <div className="nav-links space-x-4">
-          <a href="#home" className="sec_color main-color ">
+          <a href="#home" className="sec_color main-color text-xl">
             Home
           </a>
-          <a href="#about" className="sec_color main-color">
+          <a href="#about" className="sec_color main-color text-xl">
             About
           </a>
-          <a href="#schedule" className="sec_color main-color">
-            Schedule
+          <a href="#itinerary" className="sec_color main-color text-xl">
+            Itinerary
           </a>
-          <a href="#sponsors" className="sec_color main-color">
-            Sponsors
+          <a href="#collaborators" className="sec_color main-color text-xl">
+            Collaborators
           </a>
-          <a href="#socials" className="sec_color main-color">
-            Socials
-          </a>
-          <a href="#faq" className="sec_color main-color">
+          <a href="#faq" className="sec_color main-color text-xl">
             FAQ
           </a>
         </div>
