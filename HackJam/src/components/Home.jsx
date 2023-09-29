@@ -5,7 +5,7 @@ function Home() {
     <div className="h-screen flex">
       <Navbar/>
       <div className=" m-auto flex-col">
-        <h1 className="m-auto font-bold hover:ease-in-out dark-color tt text-9xl">HACKJAM</h1>
+        <h1 className="m-auto font-bold dark-color tt text-9xl">HACKJAM</h1>
         <h3 className="m-auto font-bold dark-color tt text-6xl">2023</h3>
         <br/>
         <br/>
