@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-    <div id="socials" className="h-4">
+    <div id="socials" className="h-2">
       <p>For questions and concerns, reach out to us on one of our platforms</p>
       <br/><br/>
       <div class="flex justify-center">

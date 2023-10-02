@@ -1,14 +1,15 @@
+import photoHex from '../assets/hex_photo_gallery.png'
 
 function About() {
   return (
-    <div id="about" className="h-screen">
+    <div id="about" className="section">
       <h1 className="m-auto motto">Think. Code. Innovate.</h1>
       <br/><br/>
-      <div className="flex">
-        <div className="flex-1 ...">
-          Put honeycomb picture design here
+      <div className="about">
+        <div className="about-content">
+          <img src={photoHex} alt="photos"/>
         </div>
-        <div className="flex-1 ...">
+        <div className="about-content" style={{'margin-bottom': '-1rem'}}>
           <p className="text-left text-lg">Welcome to HackJam - Where Innovation Meets Code!</p>
           <br/>
           <p className="text-left text-lg">
@@ -18,8 +19,7 @@ function About() {
             Together, we'll turn dreams into tangible projects and propel the future of technology. Get ready to jam with us and code your way to greatness!
           </p>
         </div>
-      </div>
-      
+      </div>    
     </div>
   );
 }

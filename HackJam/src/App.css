@@ -53,6 +53,28 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.about-content {
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.sched {
+  max-height: 90vh;
+  width: auto;
+  margin: auto;
+}
+.section {
+  max-width: 100vw;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
 .btn {
   background-color: #221a27;
   border-color: #fe01ff;

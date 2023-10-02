@@ -2,7 +2,7 @@ import QA from "./QA";
 
 function FAQ() {  
   return (
-    <div id="faq" className="h-screen">
+    <div id="faq" className="section">
       <h1 className="m-auto">FAQ</h1>
       <br/>
       <div className="flex-col faq-flex justify-items-center">
