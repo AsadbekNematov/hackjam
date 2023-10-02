@@ -2,11 +2,7 @@ import Navbar from "./Navbar";
 
 function Home() {
   return (
-<<<<<<< HEAD
-    <div className="h-screen flex" style={{'margin-top': '5rem'}}>
-=======
     <div className="h-screen select-none flex">
->>>>>>> 5041c0ea15f7c04c51d4891f799b693c0e64a5cb
       <Navbar/>
       <div className=" m-auto flex-col">
         <h1 className="m-auto font-bold hover:ease-in-out dark-color tt text-9xl">HACKJAM</h1>
