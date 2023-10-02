@@ -1,8 +1,13 @@
-
+import HackJamLogo from '../assets/logo.png'
 function Footer() {
   return (
-    <div id="socials" className="h-2">
-      <p>For questions and concerns, reach out to us on one of our platforms</p>
+    <div id="socials" className="h-2 pb-10 mb-20">
+      <img src={HackJamLogo} className="mx-auto h-20" alt='logo' />
+      
+      
+      
+      
+      {/* <p>For questions and concerns, reach out to us on one of our platforms</p>
       <br/><br/>
       <div class="flex justify-center">
         <div class="flex-none w-24 h-24">
@@ -15,7 +20,7 @@ function Footer() {
             <i className="fa-brands fa-discord socials text-3xl"/>
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
