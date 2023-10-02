@@ -35,6 +35,9 @@
   width: 30%;
   height: 10%;
 }
+.home {
+  background-image: url("./assets/background.png");
+}
 .nv-bg {
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.04);
@@ -61,8 +64,22 @@
   align-items: center;
 }
 .about-content {
-  margin: auto;
+  margin: 2%;
   margin-bottom: 3rem;
+  width: 46%;
+  min-width: 46%;
+}
+@media screen and (max-width: 800px) {
+  .about-content {
+    margin: 2%;
+    margin-bottom: 3rem;
+    width: 100%;
+    min-width: 46%;
+  }
+}
+.about-text {
+  position: relative;
+  top: -30px;
 }
 .sched {
   max-height: 90vh;
@@ -75,12 +92,13 @@
   margin: 0 auto;
   margin-bottom: 5rem;
 }
-
+.section-title {
+  font-size: 2em;
+}
 .btn:active,
 .btn:hover {
   outline: 0;
 }
-
 .btn {
   background-color: #221a27;
   border-color: #fe01ff;

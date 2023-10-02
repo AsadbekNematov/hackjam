@@ -8,7 +8,7 @@ function Collaborators() {
   return (
     <>
       <div id="collaborators" className="h-min mb-20 section">
-        <h1 className="m-auto">Brought to you in collaboration with...</h1>
+        <h1 className="m-auto section-title">In collaboration with...</h1>
         <br/><br/>
         <div className="flex flex-row select-none pr-10">
           <div className="flex-auto p-0 w-20 m-auto ml-8 ">
