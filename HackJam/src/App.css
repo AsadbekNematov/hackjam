@@ -53,9 +53,22 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
+.btn:active,
+.btn:hover {
+  outline: 0;
+}
+
 .btn {
   background-color: #221a27;
   border-color: #fe01ff;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 300ms;
 }
 .btn:hover {
   background-color: #fe01ff;
@@ -70,12 +83,10 @@
 }
 .faq-btn:focus {
   outline: none;
-
 }
 .spin-right {
   animation: spin-right 0.2s linear;
   animation-fill-mode: forwards;
-  
 }
 @keyframes spin-right {
   from {
@@ -104,7 +115,7 @@
   transition: filter 300ms;
 }
 .motto:hover {
-  filter: drop-shadow(5px 5px 10px yellow) ;
+  filter: drop-shadow(5px 5px 10px yellow);
 }
 .main-color {
   color: #fe01ff;
