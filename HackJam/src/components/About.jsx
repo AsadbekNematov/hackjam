@@ -3,7 +3,7 @@ import photoHex from '../assets/hex_photo_gallery.png'
 function About() {
   return (
     <div id="about" className="section" style={{'margin-top': '2rem'}}>
-      <h1 className="m-auto motto">Think. Code. Innovate.</h1>
+      <h1 className="m-auto motto select-none">Think. Code. Innovate.</h1>
       <br/><br/>
       <div className="about">
         <div className="about-content">
