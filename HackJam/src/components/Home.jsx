@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 function Home() {
   return (
     <>
-      <div className="h-screen select-none flex">
+      <div className="h-screen select-none flex pt-14">
         <Navbar/>
         <div className=" m-auto flex-col">
           <h1 className="m-auto font-bold hover:ease-in-out dark-color tt text-9xl">HACKJAM</h1>

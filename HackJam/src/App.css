@@ -96,7 +96,6 @@
   margin: 0 auto;
   margin-bottom: 5rem;
 }
-
 @media screen and (max-width: 800px) {
   .section {
     max-width: 90vw;
@@ -128,7 +127,7 @@
   border-color: #fe01ff;
 }
 .faq-flex {
-  width: 100vw;
+  width: 100%;
   min-width: 250px;
   max-width: 900px;
   margin-right: auto;
