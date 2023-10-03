@@ -4,6 +4,8 @@ import IEEEcsLogo from "../assets/IEEEcsLogo.png"
 import WiCSELogo from "../assets/WiCSELogo.png"
 import GDSCLogo from "../assets/GDSCLogo.png"
 import GWCLogo from "../assets/GWCLogo.png"
+import DSCLogo from "../assets/DSCLogo.png"
+import MECHLogo from "../assets/MECHLogo.png"
 
 function Collaborators() {
   return (
@@ -29,6 +31,12 @@ function Collaborators() {
           </div>
           <div className="cohost p-0 w-20 m-auto ml-8">
             <img src={GWCLogo} alt="Logo" />
+          </div>
+          <div className="cohost p-0 w-20 m-auto ml-8">
+            <img src={DSCLogo} alt="Logo" />
+          </div>
+          <div className="cohost p-0 w-20 m-auto ml-8">
+            <img src={MECHLogo} alt="Logo" />
           </div>
         </div>
       </div>
