@@ -10,10 +10,10 @@ function Home() {
           <h3 className="m-auto font-bold dark-color tt text-6xl">2023</h3>
           <br/>
           <br/>
-          <h2 class="" style={{width: "100%"}}>October 22<sup>nd</sup></h2>
+          <h2 className="" style={{width: "100%"}}>October 22<sup>nd</sup></h2>
           <br/>
           <form action="https://ocioyx01rpq.typeform.com/to/vSjZMc0c">
-            <button onClick="" class="btn bg-transparent font-semibold py-2 px-4 border btn-border hover:border-transparent rounded">
+            <button onClick="" className="btn bg-transparent font-semibold py-2 px-4 border btn-border hover:border-transparent rounded">
               Register Now
             </button>
           </form>
