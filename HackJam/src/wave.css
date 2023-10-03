@@ -12,9 +12,9 @@
 .wave {
   background: url(./assets/wave1.png) repeat-x;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   width: 6400px;
-  height: 100vh;
+  height: 92vh;
   animation: wave 20s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite,
     swell 7s ease -1.25s infinite;
   transform: translate3d(0, 0, 0);
@@ -23,7 +23,7 @@
 .wave2 {
   background: url(./assets/wave2.png) repeat-x;
   position: absolute;
-  bottom: -50px;
+  bottom: -150px;
   width: 6400px;
   height: 100vh;
   animation: wave2 15s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite,
@@ -34,7 +34,7 @@
 .wave3 {
   background: url(./assets/wave3.png) repeat-x;
   position: absolute;
-  bottom: -175px;
+  bottom: -300px;
   width: 6400px;
   height: 100vh;
   animation: wave 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite,
@@ -44,7 +44,7 @@
 .wave4 {
   background: url(./assets/wave4.png) repeat-x;
   position: absolute;
-  bottom: -400px;
+  bottom: -500px;
   width: 6400px;
   height: 100vh;
   animation: wave2 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite,
