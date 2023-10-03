@@ -19,6 +19,10 @@
   background: #04fcff;
   border-radius: 10px;
 }
+body{
+  overflow-x: hidden;
+}
+
 .tt {
   filter: drop-shadow(2px 2px 0px #fe01ff) drop-shadow(-2px -2px 0px #04fcff);
 }
