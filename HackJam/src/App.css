@@ -101,9 +101,6 @@
   align-items: middle;
   justify-content: center;
 }
-.faq-btn {
-  align-self:
-}
 .btn:active,
 .btn:hover {
   outline: 0;
@@ -263,6 +260,11 @@
     vertical-align: middle;
     user-select: none;
     opacity: 1;
+  }
+}
+@media screen and (max-width: 700px) {
+  .q-text {
+    font-size: 0.62rem;
   }
 }
 @media screen and (max-width: 420px) {
