@@ -28,7 +28,9 @@ function Navbar() {
     >
       <div className="container mx-auto px-4 py-2 flex justify-around items-center select-none">
         <div className="p-0 logo w-20 ">
-          <img src={logo} className="" alt="Logo" />
+          <a href="#home">
+            <img src={logo} className="" alt="Logo" />
+          </a>
         </div>
         <div className="nav-links space-x-4">
           <a href="#home" className="sec_color main-color text-xl navbar-txt">
