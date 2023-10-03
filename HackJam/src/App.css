@@ -49,6 +49,7 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(9.3px);
   -webkit-backdrop-filter: blur(9.3px);
+  -moz-backdrop-filter: bur(9.3px);
 }
 .logo {
   will-change: filter;
@@ -111,6 +112,7 @@
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
+  -moz-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
@@ -205,7 +207,7 @@
   overflow: hidden;
 }
 .schedule thead {
-  background-color: #5d16ec;
+  background-color: #f64f85;
 }
 .schedule thead tr th {
   font-size: 14px;
@@ -222,7 +224,7 @@
   letter-spacing: 0.35px;
   font-weight: normal;
   color: #1b141f;
-  background-color: #fab4cc;
+  background-color: #ffdbe7;
   padding: 8px;
   text-align: center;
   border: 1px solid #FFFFFF;
