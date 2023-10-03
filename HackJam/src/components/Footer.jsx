@@ -2,7 +2,7 @@ import HackJamLogo from '../assets/logo.png'
 function Footer() {
   return (
     <div id="socials" className="h-2 pb-10 mb-20">
-      <img src={HackJamLogo} className="mx-auto h-20 select-none" alt='logo' />
+      <img src={HackJamLogo} className="mx-auto h-24 select-none" alt='logo' />
       
       
       

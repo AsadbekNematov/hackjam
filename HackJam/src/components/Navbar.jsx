@@ -24,26 +24,26 @@ function Navbar() {
     <div
       className={`fixed top-0 left-0 w-full transition-all  duration-300 ${
         scrolled ? "nv-bg" : "bg-transparent"
-      } z-50`}
+      } z-50 navbar`}
     >
       <div className="container mx-auto px-4 py-2 flex justify-around items-center select-none">
         <div className="p-0 logo w-20 ">
           <img src={logo} className="" alt="Logo" />
         </div>
         <div className="nav-links space-x-4">
-          <a href="#home" className="sec_color main-color text-xl">
+          <a href="#home" className="sec_color main-color text-xl navbar-txt">
             Home
           </a>
-          <a href="#about" className="sec_color main-color text-xl">
+          <a href="#about" className="sec_color main-color text-xl navbar-txt">
             About
           </a>
-          <a href="#itinerary" className="sec_color main-color text-xl">
+          <a href="#itinerary" className="sec_color main-color text-xl navbar-txt">
             Itinerary
           </a>
-          <a href="#collaborators" className="sec_color main-color text-xl">
+          <a href="#collaborators" className="sec_color main-color text-xl navbar-txt">
             Collaborators
           </a>
-          <a href="#faq" className="sec_color main-color text-xl">
+          <a href="#faq" className="sec_color main-color text-xl navbar-txt">
             FAQ
           </a>
         </div>
