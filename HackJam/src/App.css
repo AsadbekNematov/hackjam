@@ -9,6 +9,7 @@
   margin: 0 auto;;
   padding: 0;
   box-sizing: border-box;
+  -webkit-appearance: none;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -49,7 +50,6 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(9.3px);
   -webkit-backdrop-filter: blur(9.3px);
-  -moz-backdrop-filter: bur(9.3px);
 }
 .logo {
   will-change: filter;
@@ -112,7 +112,6 @@
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
-  -moz-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
