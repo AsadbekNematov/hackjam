@@ -277,6 +277,10 @@
   .logo {
     width: 3rem;
   }
+  .bottom-logo {
+    height: 3rem;
+    width: auto;
+  }
   .navbar-txt {
     font-size: 1rem;
     line-height: 2.25rem;

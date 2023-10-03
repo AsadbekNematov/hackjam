@@ -18,6 +18,7 @@ function Footer() {
       </div> 
       <a href="#home">
       <img src={HackJamLogo} className="mx-auto h-24 select-none bottom-logo" alt='logo' /></a>
+      <br/><br/>
     </div>
   );
 }
