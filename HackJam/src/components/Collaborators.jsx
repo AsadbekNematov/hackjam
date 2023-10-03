@@ -14,17 +14,11 @@ function Collaborators() {
         <h1 className="m-auto section-title text">In collaboration with...</h1>
         <br/><br/>
         <div className="cohostContainer select-none">
-          <div className="cohost p-0 w-20 m-auto ml-8">
-            <img src={SHPELogo} alt="Logo" />
-          </div>
           <div className="cohost p-0 w-20 m-auto ml-8 max-h-30">
             <img src={ACMLogo} alt="Logo" />
           </div>
           <div className="cohost p-0 w-20 m-auto ml-8">
-            <img src={IEEEcsLogo} alt="Logo" />
-          </div>
-          <div className="cohost p-0 w-20 m-auto ml-8">
-            <img src={WiCSELogo} alt="Logo" />
+            <img src={DSCLogo} alt="Logo" />
           </div>
           <div className="cohost p-0 w-20 m-auto ml-8">
             <img src={GDSCLogo} alt="Logo" />
@@ -33,10 +27,16 @@ function Collaborators() {
             <img src={GWCLogo} alt="Logo" />
           </div>
           <div className="cohost p-0 w-20 m-auto ml-8">
-            <img src={DSCLogo} alt="Logo" />
+            <img src={IEEEcsLogo} alt="Logo" />
           </div>
           <div className="cohost p-0 w-20 m-auto ml-8">
             <img src={MECHLogo} alt="Logo" />
+          </div>
+          <div className="cohost p-0 w-20 m-auto ml-8">
+            <img src={SHPELogo} alt="Logo" />
+          </div>
+          <div className="cohost p-0 w-20 m-auto ml-8">
+            <img src={WiCSELogo} alt="Logo" />
           </div>
         </div>
       </div>

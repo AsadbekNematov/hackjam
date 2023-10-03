@@ -60,6 +60,9 @@
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+.bottom-logo:hover {
+  transform: scale(1.1);
+}
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
