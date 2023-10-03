@@ -11,7 +11,7 @@ function Collaborators() {
   return (
     <>
       <div id="collaborators" className="h-min mb-20 section">
-        <h1 className="m-auto section-title">In collaboration with...</h1>
+        <h1 className="m-auto section-title text">In collaboration with...</h1>
         <br/><br/>
         <div className="cohostContainer select-none">
           <div className="cohost p-0 w-20 m-auto ml-8">

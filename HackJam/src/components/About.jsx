@@ -3,7 +3,7 @@ import photoHex from '../assets/hex_photo_gallery.png'
 function About() {
   return (
     <div id="about" className="section" style={{'margin-top': '2rem'}}>
-      <h1 className="m-auto motto select-none">Think. Code. Innovate.</h1>
+      <h1 className="m-auto motto select-none text">Think. Code. Innovate.</h1>
       <br/><br/>
       <div className="about">
         <div className="about-content select-none">
@@ -11,9 +11,9 @@ function About() {
         </div>
         <div className="about-content" style={{'margin-bottom': '-1rem'}}>
           <div className="about-text">
-            <p className="text-left text-lg">Welcome to HackJam - Where Innovation Meets Code!</p>
+            <p className="text-left text-lg text">Welcome to HackJam - Where Innovation Meets Code!</p>
             <br/>
-            <p className="text-left text-lg">
+            <p className="text-left text-lg text">
               Our hackathon is a dynamic environment where brilliant minds come together to transform ideas into reality. 
               Whether you're a seasoned coder or a passionate novice, HackJam offers an exhilarating opportunity to think outside the box, write innovative code, and create 
               solutions that can change the world. Join us for 12 hours of intense coding, collaboration, and innovation as we embrace the motto 'Think. Code. Innovate.' 
