@@ -38,7 +38,7 @@ function Navbar() {
             About
           </a>
           <a href="#itinerary" className="sec_color main-color text-xl navbar-txt">
-            Itinerary
+            Schedule
           </a>
           <a href="#collaborators" className="sec_color main-color text-xl navbar-txt">
             Collaborators
