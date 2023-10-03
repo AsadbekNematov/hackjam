@@ -278,6 +278,15 @@
     font-size: 1rem;
     line-height: 2.25rem;
   }
+  .schedule-container {
+    margin: 40px auto 0;
+    display: block;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
 @media screen and (max-width: 440px) {
   .logo {
