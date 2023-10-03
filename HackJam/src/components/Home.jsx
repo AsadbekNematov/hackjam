@@ -13,7 +13,7 @@ function Home() {
           <h2 class="" style={{width: "100%"}}>October 22<sup>nd</sup></h2>
           <br/>
           <form action="https://ocioyx01rpq.typeform.com/to/vSjZMc0c">
-            <button onClick="" class="btn bg-transparen font-semibold py-2 px-4 border btn-border hover:border-transparent rounded">
+            <button onClick="" class="btn bg-transparent font-semibold py-2 px-4 border btn-border hover:border-transparent rounded">
               Register Now
             </button>
           </form>
