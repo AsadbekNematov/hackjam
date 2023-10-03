@@ -6,12 +6,12 @@ function Footer() {
       <br/><br/> */}
       <div className="flex justify-center">
         <div className="flex-none w-24 h-24 m-0">
-          <a href={"https://www.facebook.com/hackabull"}>
+          <a href={"https://www.instagram.com/shpeusf"}  target="_blank">
             <i className="fa-brands fa-instagram socials text-3xl"/>
           </a>
         </div>
         <div className="flex-none m-0 w-24 h-24">
-          <a href={"https://www.facebook.com/hackabull"}>
+          <a href={"https://discord.gg/wn9J92Qwk2"}  target="_blank">
             <i className="fa-brands fa-discord socials text-3xl"/>
           </a>
         </div>
