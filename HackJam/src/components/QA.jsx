@@ -9,13 +9,13 @@ function QA({question, answer}) {
   
   return (
     <div className={container}>
-      <div className="p-4 text-xl relative font-medium">
-        <div className="text-left w-5/6">
+      <div className="p-4 text-xl relative font-medium flex">
+        <div className="text-left w-5/6 flex-auto">
           {question}
         </div>
         <button
           aria-label="question-expander"
-          className="text-x absolute top-0 right-0 p-4 bg-transparent border-none faq-btn"
+          className="text-xl p-4 relative bg-transparent border-none flex-auto faq-btn"
           onClick={() => setExpand(!expand)}
         >
           {

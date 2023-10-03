@@ -8,12 +8,12 @@ function Home() {
         <div className="wave2"></div>
         <div className="wave3"></div>
         <div className="wave4"></div>
-    </div>
+      </div>
       <div className="h-screen select-none flex pt-14">
         <Navbar/>
         <div className=" m-auto flex-col">
-          <h1 className="m-auto font-bold hover:ease-in-out dark-color tt text-9xl">HACKJAM</h1>
-          <h3 className="m-auto font-bold dark-color tt text-6xl">2023</h3>
+          <h1 className="m-auto font-bold hover:ease-in-out dark-color tt">HACKJAM</h1>
+          <h3 className="m-auto font-bold dark-color tt">2023</h3>
           <br/>
           <br/>
           <h2 className=""><sup>October 22nd</sup></h2>
