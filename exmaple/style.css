@@ -1,40 +1,64 @@
-
-html, body { height: 100%; }
+html,
 body {
-  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
-  overflow: hidden;
+  height: 100%;
+}
+body {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 254, 234, 1) 0%,
+    rgba(255, 254, 234, 1) 35%,
+    #b7e8eb 100%
+  );
+  /* overflow: hidden; */
 }
 
-.ocean { 
-  height: 5%;
-  width:100%;
-  position:absolute;
-  bottom:0;
-  left:0;
+.ocean {
+  height: 9%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   background: #015871;
 }
 
 .wave {
-  background: url(https://i.ibb.co/2KLtd0J/wave1.png) repeat-x; 
+  background: url(./wave1.png) repeat-x;
+  position: absolute;
+  top: -498px;
+  width: 6400px;
+  height: 100%;
+  animation: wave 15s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave2 {
+  background: url(./wave2.png) repeat-x;
   position: absolute;
   top: -498px;
   width: 6400px;
   height: 398px;
-  animation: wave 15s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-  transform: translate3d(0, 0, 0);
+  animation: wave 12 cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite,
+    swell 7s ease -1.25s infinite;
+  opacity: 1;
 }
-
-.wave:nth-of-type(2) {
-  top: -375px;
-  animation: wave 12 cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+.wave3 {
+  background: url(./wave3.png) repeat-x;
+  position: absolute;
+  top: -498px;
+  width: 6400px;
+  height: 398px;
+  animation: wave 8s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite,
+    swell 7s ease -1.25s infinite;
   opacity: 1;
-}.wave:nth-of-type(3) {
-  top: -150px;
-  animation: wave 8s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
-  opacity: 1;
-}.wave:nth-of-type(4) {
-  top: -15px;
-  animation: wave 5 s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+}
+.wave4 {
+  background: url(./wave4.png) repeat-x;
+  position: absolute;
+  top: -498px;
+  width: 6400px;
+  height: 398px;
+  animation: wave 5 s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite,
+    swell 7s ease -1.25s infinite;
   opacity: 1;
 }
 
@@ -48,10 +72,11 @@ body {
 }
 
 @keyframes swell {
-  0%, 100% {
-    transform: translate3d(0,-50px,0);
+  0%,
+  100% {
+    transform: translate3d(0, -50px, 0);
   }
   50% {
-    transform: translate3d(0,5px,0);
+    transform: translate3d(0, 5px, 0);
   }
 }
