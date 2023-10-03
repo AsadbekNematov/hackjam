@@ -2,7 +2,7 @@
 function Schedule() {
   return (
     <div id="itinerary" className="section">
-      <h1 className="m-auto section-title" style={{'margin-bottom': '-1.5rem'}}>Itinerary</h1>
+      <h1 className="m-auto section-title" style={{'margin-bottom': '-1.5rem'}}>Schedule</h1>
       <br/>
       <div className="schedule-container select-none">
         <table className="schedule">
