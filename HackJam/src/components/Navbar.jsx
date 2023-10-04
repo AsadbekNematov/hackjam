@@ -33,19 +33,19 @@ function Navbar() {
           </a>
         </div>
         <div className="nav-links space-x-4">
-          <a href="#home" className="sec_color main-color text-xl navbar-txt">
+          <a href="#home" className="sec_color montserrat main-color text-xl navbar-txt">
             Home
           </a>
-          <a href="#about" className="sec_color main-color text-xl navbar-txt">
+          <a href="#about" className="sec_color montserrat main-color text-xl navbar-txt">
             About
           </a>
-          <a href="#itinerary" className="sec_color main-color text-xl navbar-txt">
+          <a href="#itinerary" className="sec_color montserrat main-color text-xl navbar-txt">
             Schedule
           </a>
-          <a href="#collaborators" className="sec_color main-color text-xl navbar-txt">
+          <a href="#collaborators" className="sec_color montserrat main-color text-xl navbar-txt">
             Collaborators
           </a>
-          <a href="#faq" className="sec_color main-color text-xl navbar-txt">
+          <a href="#faq" className="sec_color main-color montserrat text-xl navbar-txt">
             FAQ
           </a>
         </div>

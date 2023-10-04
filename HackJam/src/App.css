@@ -24,6 +24,9 @@
   background: #04fcff;
   border-radius: 10px;
 }
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
 .tt {
   font-size: 120px;
   filter: drop-shadow(2px 2px 0px #fe01ff) drop-shadow(-2px -2px 0px #04fcff);
@@ -224,6 +227,7 @@
   padding: 12px;
   vertical-align: top;
   border: 1px solid #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
 .schedule tbody tr td {
   font-size: 14px;
@@ -232,10 +236,12 @@
   color: #ffeaf1;
   background-color: transparent;
   padding: 8px;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   border: 1px solid #ffffff;
 }
 .schedule .tbody tr td {
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   display: inline-block;
   font-weight: medium;

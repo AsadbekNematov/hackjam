@@ -11,7 +11,7 @@ function Collaborators() {
   return (
     <>
       <div id="collaborators" className="h-min relative mb-20 section">
-        <h1 className="m-auto section-title text">In collaboration with...</h1>
+        <h1 className="m-auto section-title montserrat text">In collaboration with...</h1>
         <br/><br/>
           <div className="absolute purple_shadow_y"></div>
         <div className="cohostContainer select-none">

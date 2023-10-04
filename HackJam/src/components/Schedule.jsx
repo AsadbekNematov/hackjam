@@ -4,7 +4,7 @@ function Schedule() {
     <div id="itinerary" className="section">
       <h1 className="m-auto section-title text" style={{'margin-bottom': '-1.5rem'}}>Schedule</h1>
       <br/><br/>
-      <div className="schedule-container select-none">
+      <div className="schedule-container montserrat select-none">
         <table className="schedule">
           <thead>
             <tr>

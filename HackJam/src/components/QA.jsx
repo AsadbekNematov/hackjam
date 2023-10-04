@@ -10,7 +10,7 @@ function QA({question, answer}) {
   return (
     <div className={container}>
       <div className="p-4 text-xl relative font-medium flex">
-        <div className="text-left w-5/6 flex-auto q-text text">
+        <div className="text-left montserrat w-5/6 flex-auto q-text text">
           {question}
         </div>
         <button
