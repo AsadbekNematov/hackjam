@@ -25,7 +25,7 @@ function Home() {
             <sup>October 22nd</sup>
           </h2>
           <br />
-          <div className="flex justify-center items-center">
+          <div className="flex flex-col md:flex-row justify-center items-center">
             <form className="m-4"
               action="https://ocioyx01rpq.typeform.com/to/vSjZMc0c"
               target="_blank"
