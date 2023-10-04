@@ -45,7 +45,7 @@ function Home() {
                 onClick=""
                 className="btn bg-transparent font-semibold py-2 px-4 border btn-border hover:border-transparent rounded text"
               >
-                SignUp as Volunteer
+                Sign Up as Volunteer
               </button>
             </form>
           </div>
