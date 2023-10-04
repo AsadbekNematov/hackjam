@@ -16,8 +16,8 @@ function Home() {
           <h3 className="m-auto font-bold dark-color tt">2023</h3>
           <br/>
           <br/>
-          <h2 className="text-3xl text"><sup>USF's Fall Hackathon</sup></h2>
-          <h2 className="text-3x text"><sup>October 22nd</sup></h2>
+          <h2 className="text-4xl font-semibold	 text"><sup>USF's Fall Hackathon</sup></h2>
+          <h2 className="text-xl font-semibold	 text"><sup>October 22nd</sup></h2>
           <br/>
           <form action="https://ocioyx01rpq.typeform.com/to/vSjZMc0c" target="_blank" >
             <button onClick="" className="btn bg-transparent font-semibold py-2 px-4 border btn-border hover:border-transparent rounded text">
