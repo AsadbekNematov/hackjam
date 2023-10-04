@@ -16,24 +16,24 @@ function Schedule() {
           </thead>
           <tbody>
             <tr>
-              <td data-label="Time">8:00 AM</td>
+              <td data-label="Time">8 AM - 11 AM</td>
               <td data-label="Event">Check-In Begins</td>
-              <td data-label="Organizer">Society of Hispanic Professional Engineers (SHPE)</td>
+              <td data-label="Organizer">Everyone</td>
               <td data-label="Location">HALL OF FLAGS (ENB II)</td>
             </tr>
 
             <tr>
-              <td data-label="Time">10:00 AM</td>
+              <td data-label="Time">10 AM - 11 AM</td>
               <td data-label="Event">Opening Ceremony</td>
-              <td data-label="Organizer">Beginners Guide to Hackathon</td>
+              <td data-label="Organizer">Everyone</td>
               <td data-label="Location">ENB 118</td>
             </tr>
 
             <tr>
               <td data-label="Time">11:00 AM</td>
               <td data-label="Event">Hacking Begins!</td>
-              <td data-label="Organizer">Society of Hispanic Professional Engineers (SHPE)</td>
-              <td data-label="Location"></td>
+              <td data-label="Organizer">Everyone</td>
+              <td data-label="Location">All</td>
             </tr>
 
             <tr>
@@ -58,14 +58,21 @@ function Schedule() {
             </tr>
 
             <tr>
-              <td data-label="Time">2:00 PM - 4:00pm</td>
+              <td data-label="Time">2:00 PM</td>
+              <td data-label="Event">Lunch</td>
+              <td data-label="Organizer">Everyone</td>
+              <td data-label="Location">ENB</td>
+            </tr>
+
+            <tr>
+              <td data-label="Time">2:15 PM - 4:00pm</td>
               <td data-label="Event">Website Development</td>
               <td data-label="Organizer">IEEE Computer Society</td>
               <td data-label="Location">ENB 116</td>
             </tr>
 
             <tr>
-              <td data-label="Time">2:00 PM - 4:00pm</td>
+              <td data-label="Time">2:15 PM - 4:00pm</td>
               <td data-label="Event">Internet of Things with Amazon Echo</td>
               <td data-label="Organizer">IEEE Computer Society</td>
               <td data-label="Location">ENB 118</td>
@@ -87,61 +94,48 @@ function Schedule() {
 
             <tr>
               <td data-label="Time">5:00 PM</td>
-              <td data-label="Event">Machine Learning</td>
+              <td data-label="Event">SQL Basics for Data Science</td>
               <td data-label="Organizer">Girls Who Code (GWC)</td>
-              <td data-label="Location">TBA</td>
+              <td data-label="Location">ENB 116</td>
             </tr>
+
+            <tr>
+              <td data-label="Time">5:00 PM</td>
+              <td data-label="Event">Deep Learning with PyTorch</td>
+              <td data-label="Organizer">Data Science Club (DSC)</td>
+              <td data-label="Location">ENB 118</td>
+            </tr>
+
 
             <tr>
               <td data-label="Time">6:00 PM</td>
               <td data-label="Event">Dinner</td>
-              <td data-label="Organizer">Society of Hispanic Professional Engineers (SHPE)</td>
-              <td data-label="Location">TBA</td>
+              <td data-label="Organizer">Everyone</td>
+              <td data-label="Location">ENB</td>
             </tr>
 
             <tr>
               <td data-label="Time">8:00 PM</td>
-              <td data-label="Event">TBA</td>
-              <td data-label="Organizer">TBA</td>
+              <td data-label="Event">Team Games</td>
+              <td data-label="Organizer">Everyone</td>
               <td data-label="Location">HALL OF FLAGS (ENB II)</td>
             </tr>
 
             <tr>
               <td data-label="Time">9:00 PM</td>
-              <td data-label="Event">TBA</td>
-              <td data-label="Organizer">TBA</td>
-              <td data-label="Location">TBA</td>
+              <td data-label="Event">Hacking Stops, Judging Starts</td>
+              <td data-label="Organizer">Everyone</td>
+              <td data-label="Location">All</td>
             </tr>
 
             <tr>
               <td data-label="Time">10:00 PM</td>
-              <td data-label="Event">Closing Ceremony</td>
-              <td data-label="Organizer">TBA</td>
-              <td data-label="Location">TBA</td>
+              <td data-label="Event">Closing Ceremony and Prizes</td>
+              <td data-label="Organizer">Everyone</td>
+              <td data-label="Location">ENB</td>
             </tr>
 
-            <tr>
-              <td data-label="Time">11:00 PM</td>
-              <td data-label="Event">TBA</td>
-              <td data-label="Organizer">TBA</td>
-              <td data-label="Location">TBA</td>
-            </tr>
-
-            <tr>
-              <td data-label="Time">12:00 AM</td>
-              <td data-label="Event">Grading</td>
-              <td data-label="Organizer">TBA</td>
-              <td data-label="Location">TBA</td>
-            </tr>
-
-            <tr>
-              <td data-label="Time">1:00 AM</td>
-              <td data-label="Event">Closing Ceremony</td>
-              <td data-label="Organizer">TBA</td>
-              <td data-label="Location">TBA</td>
-            </tr>
-
-
+          
           </tbody>
         </table>
       </div>
