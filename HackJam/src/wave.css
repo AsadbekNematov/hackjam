@@ -34,7 +34,7 @@
 .wave3 {
   background: url(./assets/wave3.png) repeat-x;
   position: absolute;
-  bottom: -300px;
+  bottom: -350px;
   width: 6400px;
   height: 100vh;
   animation: wave 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite,
@@ -44,7 +44,7 @@
 .wave4 {
   background: url(./assets/wave4.png) repeat-x;
   position: absolute;
-  bottom: -500px;
+  bottom: -550px;
   width: 6400px;
   height: 100vh;
   animation: wave2 5s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite,

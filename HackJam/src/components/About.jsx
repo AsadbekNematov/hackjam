@@ -6,8 +6,9 @@ function About() {
       <h1 className="m-auto motto select-none text">Think. Code. Innovate.</h1>
       <br/><br/>
       <div className="about">
-        <div className="about-content select-none">
-          <img src={photoHex} alt="photos"/>
+        <div className="about-content relative select-none">
+          <img src={photoHex} className='z-10 relative' alt="photos"/>
+          <div className="absolute pink_shadow_about"></div>
         </div>
         <div className="about-content" style={{'margin-bottom': '-1rem'}}>
           <div className="about-text">

@@ -6,7 +6,7 @@
   text-align: center;
 }
 * {
-  margin: 0 auto;;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -18,7 +18,7 @@
   height: 10px;
 }
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #1b141f
+  box-shadow: inset 0 0 5px #1b141f;
 }
 ::-webkit-scrollbar-thumb {
   background: #04fcff;
@@ -34,7 +34,7 @@
 }
 .sec_color:hover {
   color: #04fcff;
-  filter: drop-shadow(0 0 1.0em white);
+  filter: drop-shadow(0 0 1em white);
 }
 .sec_color.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -61,6 +61,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .bottom-logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
   transform: scale(1.1);
 }
 .logo.react:hover {
@@ -217,11 +218,11 @@
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.35px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
   padding: 12px;
   vertical-align: top;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
 }
 .schedule tbody tr td {
   font-size: 14px;
@@ -231,7 +232,7 @@
   background-color: #ffdbe7;
   padding: 8px;
   text-align: center;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
 }
 .schedule .tbody tr td {
   text-decoration: none;
@@ -311,22 +312,22 @@
   .schedule thead tr th {
     font-size: 10px;
     font-weight: 500;
-    letter-spacing: 0.30px;
-    color: #FFFFFF;
+    letter-spacing: 0.3px;
+    color: #ffffff;
     opacity: 1;
     padding: 8px;
     vertical-align: top;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
   }
   .schedule tbody tr td {
     font-size: 10px;
-    letter-spacing: 0.30px;
+    letter-spacing: 0.3px;
     font-weight: normal;
     color: #1b141f;
     background-color: #fab4cc;
     padding: 8px;
     text-align: center;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
   }
 }
 @media screen and (max-width: 400px) {
@@ -338,4 +339,32 @@
   .tt {
     font-size: 40px;
   }
+}
+.pink_shadow_about {
+  background: linear-gradient(90deg, #fe68ff 0%, #fe01ff 100%);
+  filter: blur(141px);
+  z-index: 0;
+  width: 40%;
+  height: 35%;
+  top: 30%;
+  right: 30%;
+}
+.pink_shadow {
+  background: linear-gradient(90deg, #fe68ff 0%, #fe01ff 100%);
+  filter: blur(360px);
+  z-index: 0;
+  width: 20%;
+  height: 45%;
+  left: 0px;
+  bottom: 0px;
+}
+
+.purple_shadow_y {
+  background: linear-gradient(90deg, #bc92ff 0%, #660ef4 100%);
+  filter: blur(300px);
+  z-index: 0;
+  width: 20%;
+  height: 150%;
+  top: -146px;
+  right: -16px;
 }

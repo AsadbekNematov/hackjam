@@ -2,9 +2,10 @@ import QA from "./QA";
 
 function FAQ() {  
   return (
-    <div id="faq" className="section">
+    <div id="faq" className="section relative">
       <h1 className="m-auto section-title text">FAQ</h1>
       <br/>
+      <div className="absolute pink_shadow"></div>
       <div className="flex-col faq-flex justify-items-center">
         <div className="flex-none mb-3">
           <QA question={"Where is it?"} answer={"HackJam will take place at the Engineering II building on October 22 this year."} />
