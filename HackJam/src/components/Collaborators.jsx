@@ -18,7 +18,7 @@ function Collaborators() {
           <div className="cohost p-0 w-20 m-auto ml-8 max-h-30">
             <img src={ACMLogo} alt="Logo" />
           </div>
-          <div className="cohost p-0 w-20 m-auto ml-8">
+          <div className="cohost z-0 p-0 w-20 m-auto ml-8">
             <img src={DSCLogo} alt="Logo" />
           </div>
           <div className="cohost p-0 w-20 m-auto ml-8">
