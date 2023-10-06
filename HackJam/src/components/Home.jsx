@@ -27,7 +27,7 @@ function Home() {
           <br />
           <div className="flex flex-col md:flex-row justify-center items-center">
             <form className="m-4"
-              action="https://ocioyx01rpq.typeform.com/to/vSjZMc0c"
+              action="https://forms.gle/c57xoiKHMerFXfdx5"
               target="_blank"
             >
               <button
@@ -38,7 +38,7 @@ function Home() {
               </button>
             </form>
             <form className="m-4"
-              action="#Shivam"
+              action="https://forms.gle/GpuwDoQsafwV7kGg7"
               target="_blank"
             >
               <button
