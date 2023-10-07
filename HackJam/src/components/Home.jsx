@@ -18,7 +18,7 @@ function Home() {
           <h3 className="m-auto font-bold dark-color tt">2023</h3>
           <br />
           <br />
-          <h2 className="text-4xl montserrat font-bold	 text">
+          <h2 className="text-4xl montserrat font-semibold	 text">
             <sup>USF's Fall Hackathon</sup>
           </h2>
           <h2 className="text-xl montserrat font-semibold	 text">
