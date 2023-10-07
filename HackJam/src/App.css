@@ -295,7 +295,6 @@
     width: 3rem;
   }
   .bottom-logo {
-    height: 3rem;
     width: auto;
   }
   .navbar-txt {
@@ -328,7 +327,7 @@
     margin: 0 !important;
   }
   .menu-open .nav-links {
-    top: 61px !important;
+    top: 60px !important;
   }
 }
 @media screen and (max-width: 420px) {
