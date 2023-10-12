@@ -95,7 +95,7 @@ function Schedule() {
             <tr>
               <td data-label="Time">4:00 PM - 4:55 PM</td>
               <td data-label="Event">How to Succeed in Hackathons</td>
-              <td data-label="Organizer">Google DeveloPMent Student Club (GDSC)</td>
+              <td data-label="Organizer">Google Developers Student Club (GDSC)</td>
               <td data-label="Location">ENB 118</td>
             </tr>
 
