@@ -94,7 +94,7 @@ function Schedule() {
 
             <tr>
               <td data-label="Time">4:00 PM - 4:55 PM</td>
-              <td data-label="Event">Web App Deployment with Docker and Azuree</td>
+              <td data-label="Event">Web App Deployment with Docker and Azure</td>
               <td data-label="Organizer">Google Developer Student Club (GDSC)</td>
               <td data-label="Location">ENB 118</td>
             </tr>
