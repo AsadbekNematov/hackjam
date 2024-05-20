@@ -73,7 +73,7 @@ function Schedule() {
 
             <tr>
               <td data-label="Time">2:15 PM - 3:55 PM</td>
-              <td data-label="Event">Website DeveloPMent</td>
+              <td data-label="Event">Website Development</td>
               <td data-label="Organizer">IEEE Computer Society</td>
               <td data-label="Location">ENB 116</td>
             </tr>
@@ -94,8 +94,8 @@ function Schedule() {
 
             <tr>
               <td data-label="Time">4:00 PM - 4:55 PM</td>
-              <td data-label="Event">How to Succeed in Hackathons</td>
-              <td data-label="Organizer">Google Developers Student Club (GDSC)</td>
+              <td data-label="Event">Web App Deployment with Docker and Azure</td>
+              <td data-label="Organizer">Google Developer Student Club (GDSC)</td>
               <td data-label="Location">ENB 118</td>
             </tr>
 
